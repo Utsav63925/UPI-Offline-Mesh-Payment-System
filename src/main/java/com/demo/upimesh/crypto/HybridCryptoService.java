@@ -20,7 +20,7 @@ import java.security.spec.MGF1ParameterSpec;
 import java.util.Base64;
 
 /**
- * Hybrid encryption — the same pattern used by TLS, PGP, Signal, etc.
+ * Hybrid encryption — the same pattern used by TLS, PGP, Signal, etc
  *
  * Why hybrid? RSA can only encrypt small data (~245 bytes for a 2048-bit key).
  * Our payment instruction (JSON) might be ~300 bytes, and in real use we might
