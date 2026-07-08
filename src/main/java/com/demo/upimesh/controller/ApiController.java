@@ -148,7 +148,7 @@ public class ApiController {
     // -------------------------------------------------------------- bridge
 
     /**
-     * THE PRODUCTION ENDPOINT.
+     * THE PRODUCTION ENDPOINT
      * In a real deployment, the Android app's bridge logic POSTs here whenever
      * the device has internet and is holding mesh packets.
      */
