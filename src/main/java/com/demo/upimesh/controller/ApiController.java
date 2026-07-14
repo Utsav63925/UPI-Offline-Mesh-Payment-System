@@ -150,7 +150,7 @@ public class ApiController {
     /**
      * THE PRODUCTION ENDPOINT
      * In a real deployment, the Android app's bridge logic POSTs here whenever
-     * the device has internet and is holding mesh packets.
+     * the device has internet and is holding mesh packets
      */
     @PostMapping("/bridge/ingest")
     public ResponseEntity<?> ingest(
