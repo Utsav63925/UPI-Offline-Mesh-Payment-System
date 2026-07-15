@@ -74,7 +74,7 @@ public class ApiController {
         public String startDevice;
     }
 
-    // -------------------------------------------------------------- mesh sim//
+    // -------------------------------------------------------------- mesh sim
 
     @GetMapping("/mesh/state")
     public Map<String, Object> meshState() {
