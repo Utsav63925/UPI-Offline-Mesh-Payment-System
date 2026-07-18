@@ -111,7 +111,7 @@ public class ApiController {
      * THIS is the moment the duplicate-storm idempotency case is tested:
      * if multiple bridge nodes hold the same packet, the server gets multiple
      * concurrent POSTs of the same ciphertext, and only one should settle.
-     *///
+     */
     @PostMapping("/mesh/flush")
     public Map<String, Object> meshFlush() {
         List<MeshSimulatorService.BridgeUpload> uploads = mesh.collectBridgeUploads();
