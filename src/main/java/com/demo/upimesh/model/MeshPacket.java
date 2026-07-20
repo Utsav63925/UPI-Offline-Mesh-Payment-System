@@ -15,7 +15,7 @@ import jakarta.validation.constraints.Min;
  *   A malicious intermediate could change `packetId` or `createdAt`. That's why
  *   we use the ciphertext's hash (not packetId) as the idempotency key on the
  *   server. The ciphertext is authenticated by hybrid encryption, so any
- *   tampering inside the encrypted blob is detected on decryption.
+ *   tampering inside the encrypted blob is detected on decryption.//
  */
 public class MeshPacket {
 
