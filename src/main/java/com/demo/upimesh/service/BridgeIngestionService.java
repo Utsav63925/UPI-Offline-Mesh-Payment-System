@@ -22,7 +22,7 @@ import java.time.Instant;
  *   3. Decrypt the ciphertext with the server's private key.
  *      - If decryption fails: tampered or junk. Reject.
  *   4. Check freshness — reject if signedAt is too old (replay protection).
- *   5. Hand off to SettlementService for the actual debit/credit.
+ *   5. Hand off to SettlementService for the actual debit/credit.//
  */
 @Service
 public class BridgeIngestionService {
