@@ -85,6 +85,7 @@ public class BridgeIngestionService {
         public static IngestResult duplicate(String hash) {
             return new IngestResult("DUPLICATE_DROPPED", hash, null, null);
         }
-       
+         public static IngestResult invalid(String hash, String reason) {
+            return new IngestResult("INVALID", hash, reason, null);
     }
 }
