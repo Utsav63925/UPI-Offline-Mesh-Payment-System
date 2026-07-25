@@ -128,4 +128,5 @@ public class MeshSimulatorService {
    
     public record GossipResult(int transfers, Map<String, Integer> deviceCounts) {}
     public record BridgeUpload(String bridgeNodeId, MeshPacket packet) {}
+    //
 }
