@@ -80,4 +80,4 @@ public class DemoService {
         for (byte b : hash) hex.append(String.format("%02x", b));
         return hex.toString();
     }
-}//
+}
